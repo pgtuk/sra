@@ -1,0 +1,16 @@
+{
+    "name": "Self-replication application",
+    "description": "Application that forks it's code after receiving user's permission",
+   
+    "repository": "https://github.com/pgtuk/sra",
+    "env": {
+      "GIT_CLIENT_ID": {
+        "description": "Client ID of your GitHub application",
+        "value": "Client ID"
+      },
+      "GIT_CLIENT_SECRET": {
+        "description": "Client Secret of your GitHub application",
+        "value": "Client Secret"
+      }
+    }
+  }
